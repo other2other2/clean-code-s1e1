@@ -107,7 +107,7 @@ body {
     display: block;
     margin: 0 0 20px;
   }
-  input#new-task {
+  #new-task {
     width: 318px;
   }
   
@@ -140,18 +140,18 @@ body {
     width: 226px;
   }
   
-  button.delete-btn img {
+  .delete-btn img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
   
-  button.delete-btn img:hover {
+  .delete-btn img:hover {
     transform: rotateZ(0);
   }
   
   /* Completed */
-  ul#completed-tasks label {
+  #completed-tasks label {
     text-decoration: line-through;
     color: #888;
   }
@@ -161,11 +161,13 @@ body {
     display: none;
   }
   
-  ul li.editMode input[type="text"] {
+  .editMode input[type="text"] {
     display: inline-block;
     width: 224px;
   }
   
-  ul li.editMode label {
+  .editMode label { 
     display: none;
   }
+  
+  
